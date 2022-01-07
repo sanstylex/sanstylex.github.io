@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>项目 &#8212; 上善若水 0.0.1 文档</title>
+    <title>转置卷积运算（有误） &#8212; 上善若水 0.0.1 文档</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -82,6 +82,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../_static/translations.js"></script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".cell"
@@ -92,8 +94,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="shortcut icon" href="../_static/page-logo.jfif"/>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="转置卷积运算（有误）" href="conv.html" />
-    <link rel="prev" title="上善若水" href="../index.html" /> 
+    <link rel="prev" title="项目" href="index.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="zh_CN">
     
@@ -169,7 +170,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
+  <a class="reference internal" href="index.html">
    项目
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -177,9 +178,9 @@ commentsRunWhenDOMLoaded(addUtterances);
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="conv.html">
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      转置卷积运算（有误）
     </a>
    </li>
@@ -234,7 +235,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/projects/index.md.txt"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/projects/conv.md.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="下载源文件" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -254,10 +255,10 @@ commentsRunWhenDOMLoaded(addUtterances);
                 data-toggle="tooltip" data-placement="left" title="源库"><i
                     class="fab fa-github"></i>资料库</button></a>
         <a class="issues-button"
-            href="https://github.com/sanstylex/sanstylex.github.io/issues/new?title=Issue%20on%20page%20%2Fprojects/index.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/sanstylex/sanstylex.github.io/issues/new?title=Issue%20on%20page%20%2Fprojects/conv.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="打开一个问题"><i class="fas fa-lightbulb"></i>公开的问题</button></a>
-        <a class="edit-button" href="https://github.com/sanstylex/sanstylex.github.io/edit/main/docs/projects/index.md"><button
+        <a class="edit-button" href="https://github.com/sanstylex/sanstylex.github.io/edit/main/docs/projects/conv.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="编辑这个页面"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -284,7 +285,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>项目</h1>
+                <h1>转置卷积运算（有误）</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -295,12 +296,79 @@ commentsRunWhenDOMLoaded(addUtterances);
             
               <div>
                  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
-<h1>项目<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="conv.html">转置卷积运算（有误）</a></li>
-</ul>
-</div>
+<h1>转置卷积运算（有误）<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>参考论文 《Up-sampling with Transposed Convolution》</p>
+<p>转置卷积(Transposed Convolution)常常在一些文献中也称之为反卷积(Deconvolution)和部分跨越卷积(Fractionally-strided Convolution)，因为称之为反卷积容易让人以为和数字信号处理中反卷积混起来，造成不必要的误解，因此下文都将称为转置卷积，并且建议各位不要采用反卷积这个称呼。</p>
+<p>假设有一个特征图（feature map）<span class="math notranslate nohighlight">\(X \in \mathbb{R}^{m \times n}\)</span>，有一个卷积核 <span class="math notranslate nohighlight">\(K \in \mathbb{R}^{k \times k}\)</span>，可以把它们的卷积运算结果 <span class="math notranslate nohighlight">\(Y = X * K \in \mathbb{R}^{(m-k+1) \times (n-k+1)}\)</span> 转换为矩阵乘法。（我们假定 padding=0，stride=1）</p>
+<p>可以将 <span class="math notranslate nohighlight">\(X\)</span> 写作分块矩阵：</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+X = 
+\begin{bmatrix}
+   X_{00} &amp; X_{01} &amp; \cdots &amp; X_{0,{n-k}} \\
+   X_{10} &amp; X_{11} &amp; \cdots &amp; X_{1,{n-k}}\\
+   \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+   X_{{m-k},0} &amp; X_{{m-k},1} &amp; \cdots &amp; X_{{m-k},{n-k}} \\
+\end{bmatrix}
+\end{split}\]</div>
+<p>这样，有</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+Y = \begin{bmatrix}
+   X_{00} * K &amp; X_{01} * K &amp; \cdots &amp; X_{0,{n-k}} * K \\
+   X_{10} * K &amp; X_{11} * K &amp; \cdots &amp; X_{1,{n-k}} * K\\
+   \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+   X_{{m-k},0} * K &amp; X_{{m-k},1} &amp; \cdots &amp; X_{{m-k},{n-k}} * K \\
+\end{bmatrix}
+\end{split}\]</div>
+<p>可以反过来思考：将 <span class="math notranslate nohighlight">\(K\)</span> 补零和 <span class="math notranslate nohighlight">\(X\)</span> 一致，定义：</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+V = \begin{bmatrix}
+   V_{00} &amp; V_{01} &amp; \cdots &amp; V_{0,{n-k}} \\
+   V_{10} &amp; V_{11} &amp; \cdots &amp; V_{1,{n-k}}\\
+   \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+   V_{{m-k},0} &amp; V_{{m-k},1} &amp; \cdots &amp; V_{{m-k},{n-k}} \\
+\end{bmatrix}
+\end{split}\]</div>
+<p>其中 <span class="math notranslate nohighlight">\(V_{ij}\)</span> 是 <span class="math notranslate nohighlight">\(K\)</span> 补零并模拟滑动的分块矩阵。</p>
+<hr class="docutils" />
+<p>首先，将卷积核 <span class="math notranslate nohighlight">\(K\)</span> 向右向下补零令其尺寸和 <span class="math notranslate nohighlight">\(X\)</span> 相同，获得一个矩阵 <span class="math notranslate nohighlight">\(K^r \in \mathbb{R}^{m \times n}\)</span>：</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+   K_{00} &amp; K_{01} &amp; \cdots &amp; K_{0,{k-1}} &amp; 0  &amp; 0 &amp; \cdots &amp; 0 \\
+   K_{10} &amp; K_{11} &amp; \cdots &amp; K_{1,{k-1}} &amp; 0  &amp; 0 &amp; \cdots &amp; 0 \\
+   \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+   K_{{k-1},1} &amp; K_{{k-1},2} &amp; \cdots &amp; K_{{k-1},{k-1}} &amp; 0  &amp; 0 &amp; \cdots &amp; 0 \\
+   0 &amp; 0 &amp; \cdots &amp; 0 &amp; 0  &amp; 0 &amp; \cdots &amp; 0 \\
+   0 &amp; 0 &amp; \cdots &amp; 0 &amp; 0  &amp; 0 &amp; \cdots &amp; 0 \\
+   \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots  &amp; \vdots &amp; \ddots &amp; \vdots \\
+   0 &amp; 0 &amp; \cdots &amp; 0 &amp; 0  &amp; 0 &amp; \cdots &amp; 0
+\end{bmatrix}
+\end{split}\]</div>
+<p>接着将 <span class="math notranslate nohighlight">\(K^r\)</span> 按行展开为一个向量 <span class="math notranslate nohighlight">\(v \in \mathbb{R}^{mn \times 1}\)</span>，接着将其写成循环矩阵的形式：</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+V = 
+\begin{bmatrix}
+   v_0^T \\
+   v_1^T \\
+   \vdots \\
+   v_{n−k}^T
+\end{bmatrix} \in \mathbb{R}^{(n-k+1) \times mn}
+\end{split}\]</div>
+<p>其中 <span class="math notranslate nohighlight">\(v_0 = v\)</span>，其余行便是 <span class="math notranslate nohighlight">\(v\)</span> 的循环排列后的向量：</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{cases}
+   v_0^T &amp;= (p_0, p_1, \cdots, p_{mn-1}) \\
+   v_1^T &amp;= (p_1, p_2, \cdots, p_{mn-1}, p_0)\\
+   &amp;\vdots \\
+   v_{n−k}^T &amp;= (p_{n−k}, p_{n−k-1}, \cdots, p_{0})
+\end{cases}
+\end{split}\]</div>
+<p>将 <span class="math notranslate nohighlight">\(X\)</span> 按行展开为一个列向量 <span class="math notranslate nohighlight">\(Z\)</span>。最后，计算 <span class="math notranslate nohighlight">\(VZ\)</span>，并把得到的结果恢复为矩阵，最终的结果等于卷积运算 <span class="math notranslate nohighlight">\(X * K\)</span> 的结果。</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -331,19 +399,12 @@ commentsRunWhenDOMLoaded(addUtterances);
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../index.html" title="上一页 页">
+    <a class='left-prev' id="prev-link" href="index.html" title="上一页 页">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">上一页</p>
-            <p class="prev-next-title">上善若水</p>
+            <p class="prev-next-title">项目</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="conv.html" title="下一页 页">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">下一页</p>
-        <p class="prev-next-title">转置卷积运算（有误）</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             
