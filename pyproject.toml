@@ -7,7 +7,7 @@ authors = [{name = "xinetzone", email = "735613050@qq.com"}]
 classifiers = ["License :: OSI Approved :: Apache Software License"]
 dynamic = ["version", "description"]
 license = {file = "LICENSE"}
-name = "d2py"
+name = "sanstylex"
 readme = "README.md"
 requires-python = ">=3.10"
 
@@ -24,7 +24,7 @@ maintainers = [
 ]
 
 [project.urls]
-Home = "https://github.com/xinetzone/d2py"
+Home = "https://github.com/sanstylex/sanstylex.github.io"
 
 [project.optional-dependencies]
 doc = [
@@ -57,7 +57,7 @@ doc = [
 ]
 
 [tool.flit.module]
-name = "d2py"
+name = "sanstylex"
 
 [tool.flit.sdist]
 # include = ["doc/"]

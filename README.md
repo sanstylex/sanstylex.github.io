@@ -1,6 +1,6 @@
 # 动手学习 Python
 
-![repo size](https://img.shields.io/github/repo-size/xinetzone/d2py.svg)
+![repo size](https://img.shields.io/github/repo-size/sanstylex.github.io.svg)
 [![PyPI][pypi-badge]][pypi-link]
 [![GitHub issues][issue-badge]][issue-link]
 [![GitHub forks][fork-badge]][fork-link]
@@ -17,20 +17,20 @@
 
 [pypi-badge]: https://img.shields.io/pypi/v/d2py.svg
 [pypi-link]: https://pypi.org/project/d2py/
-[issue-badge]: https://img.shields.io/github/issues/xinetzone/d2py
-[issue-link]: https://github.com/xinetzone/d2py/issues
-[fork-badge]: https://img.shields.io/github/forks/xinetzone/d2py
-[fork-link]: https://github.com/xinetzone/d2py/network
-[star-badge]: https://img.shields.io/github/stars/xinetzone/d2py
-[star-link]: https://github.com/xinetzone/d2py/stargazers
-[license-badge]: https://img.shields.io/github/license/xinetzone/d2py
-[license-link]: https://github.com/xinetzone/d2py/LICENSE
-[contributor-badge]: https://img.shields.io/github/contributors/xinetzone/d2py
-[contributor-link]: https://github.com/xinetzone/d2py/contributors
-[watcher-badge]: https://img.shields.io/github/watchers/xinetzone/d2py
-[watcher-link]: https://github.com/xinetzone/d2py/watchers
+[issue-badge]: https://img.shields.io/github/issues/sanstylex.github.io
+[issue-link]: https://github.com/sanstylex.github.io/issues
+[fork-badge]: https://img.shields.io/github/forks/sanstylex.github.io
+[fork-link]: https://github.com/sanstylex.github.io/network
+[star-badge]: https://img.shields.io/github/stars/sanstylex.github.io
+[star-link]: https://github.com/sanstylex.github.io/stargazers
+[license-badge]: https://img.shields.io/github/license/sanstylex.github.io
+[license-link]: https://github.com/sanstylex.github.io/LICENSE
+[contributor-badge]: https://img.shields.io/github/contributors/sanstylex.github.io
+[contributor-link]: https://github.com/sanstylex.github.io/contributors
+[watcher-badge]: https://img.shields.io/github/watchers/sanstylex.github.io
+[watcher-link]: https://github.com/sanstylex.github.io/watchers
 [binder-badge]: https://mybinder.org/badge_logo.svg
-[binder-link]: https://mybinder.org/v2/gh/xinetzone/d2py/main
+[binder-link]: https://mybinder.org/v2/gh/sanstylex.github.io/main
 [install-badge]: https://img.shields.io/pypi/dw/d2py?label=pypi%20installs
 [install-link]: https://pypistats.org/packages/d2py
 [status-badge]: https://readthedocs.org/projects/d2py/badge/?version=latest

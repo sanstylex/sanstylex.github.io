@@ -1,5 +1,0 @@
-pandas
-PyYAML
-requests
-hs-udata
-openpyxl
