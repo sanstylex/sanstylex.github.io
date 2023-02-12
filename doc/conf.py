@@ -65,7 +65,7 @@ extensions = [
     # "sphinx.ext.ifconfig",
     # "sphinxext.opengraph",
     # "sphinx_immaterial",
-    "code_annotations",
+    # "code_annotations",
 ]
 
 myst_enable_extensions = [
