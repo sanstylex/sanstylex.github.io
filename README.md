@@ -1,4 +1,4 @@
-# 动手学习 Python
+# 探索与发现
 
 ![repo size](https://img.shields.io/github/repo-size/sanstylex/sanstylex.github.io.svg)
 [![PyPI][pypi-badge]][pypi-link]
